@@ -11,7 +11,7 @@ import {Camera, Clock, Scene, WebGLRenderer} from "three";
  * Lots of people aren't sure how to use imperative code with r3f.
  * The solution is quite simple, write your imperative as you always would,
  * group all your init, update and destroy calls in a single class (or several functions)
- * and connect it to your top-level component inside via useEffect and useFrame.
+ * and connect it to your top-level component via useEffect and useFrame.
  * This could be your Game Class, Simulation Class or whatever you want.
  */
 class Simulation {
