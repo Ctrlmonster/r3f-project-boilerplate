@@ -1,10 +1,6 @@
 ### React Three Fiber Boilerplate
 
-![Screenshot of Scene](https://github.com/Ctrlmonster/r3f-project-boilerplate/blob/master/boilerplate.png?raw=true)
-
 ![Screenshot of Scene](https://github.com/Ctrlmonster/r3f-project-boilerplate/blob/main/boilerplate.png)
-
-
 
 This is a simple boilerplate for react three fiber projects with Typescript, TailwindCSS and Vite.
 It creates a fullscreen Canvas with some quality of life components present, like
