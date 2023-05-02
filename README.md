@@ -1,8 +1,8 @@
 ### React Three Fiber Boilerplate
 This is a simple boilerplate for react three fiber projects with Typescript and Vite.
 It creates a fullscreen Canvas with some quality of life components present, like
-OrbitControls, Performance Monitoring, Leva Controls for Lights, Postprocessing, Render on Demand etc.
-It also showcases an easy way to connect your imperative Simulation Code to r3f. 
+OrbitControls, Performance Monitoring, Grid and Gizmo Helper, Leva Controls for Lights, 
+Postprocessing, Render on Demand etc. It also showcases an easy way to connect your imperative Simulation Code to r3f. 
 
 
 #### Useful Links
