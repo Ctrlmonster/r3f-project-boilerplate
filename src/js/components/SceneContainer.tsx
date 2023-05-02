@@ -40,14 +40,15 @@ export function SceneContainer() {
   const state = useThree(({gl, scene, camera, clock}) => ({gl, scene, camera, clock}));
 
   useEffect(() => {
-    // init the simulation - passing some r3f objects to it
+    // init the simulation - this is how you get access 
+    // to scene, camera, renderer etc. from your imperative code.
     simulation.init(state.gl, state.scene, state.camera, state.clock);
     return () => simulation.destroy();
   }, []);
 
   useFrame((state, delta) => {
-    // connecting the simulation to r3f's render loop, it will
-    // now get updated every frame
+    // connecting the simulation to r3f's render loop, 
+    // it will now get updated every frame
     simulation.update(delta);
   })
 
