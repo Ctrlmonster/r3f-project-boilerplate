@@ -17,7 +17,7 @@ https://docs.pmnd.rs/react-three-fiber/getting-started/your-first-scene
 R3F/Drei - useful helpers
 https://github.com/pmndrs/drei
 
-GltfJSX - turn any gltf file into jsx  
+GltfJSX - turn any gltf file into jsx 
 https://github.com/pmndrs/gltfjsx
 
 Tailwind cheatsheet:
